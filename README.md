@@ -43,6 +43,6 @@ node app.js
 
 ## API Documentation
 
-Soon
+You can find the API Documentation [here](https://github.com/AtrauraBlockchain/liquium-api/wiki/API-Documentation).
 
 ![banner](https://s30.postimg.org/rd8670hi9/Pasted_image_at_2017_01_03_04_52_PM_1.png)
