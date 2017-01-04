@@ -1,4 +1,6 @@
-# Liquium API
+# Liquium API 
+
+[![node](http://img.shields.io/badge/node-6.3.1-brightgreen.svg)]()
 
 Liquium is an Open Source polling framework based in Smart Contracts running in the Ethereum network which allows to perform liquid democracy.
 
@@ -13,3 +15,5 @@ This server does not host any voter accounts, which are hosted in the mobile app
 ## How to run the server
 
 Soon
+
+![banner](https://s30.postimg.org/rd8670hi9/Pasted_image_at_2017_01_03_04_52_PM_1.png)
