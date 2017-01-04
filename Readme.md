@@ -4,7 +4,7 @@
 
 Liquium is an Open Source polling framework based in Smart Contracts running in the Ethereum network which allows to perform liquid democracy.
 
-We've build a template for organizations which want to integrate a public, fair and transparent polling system, so they can modify it for their own context just forking this and its brother repositories.
+We've built a template for organizations which want to integrate a public, fair and transparent polling system, so they can modify it for their own context just forking this and its brother repositories.
 
 ## Ethereum Gateway for the Liquium Mobile App
 
