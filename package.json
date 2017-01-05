@@ -17,6 +17,6 @@
     "body-parser": "^1.15.2",
     "ethconnector": "0.0.20",
     "express": "^4.14.0",
-    "liquium-contracts": "0.0.5"
+    "liquium-contracts": "0.0.6"
   }
 }
