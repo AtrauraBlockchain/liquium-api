@@ -6,19 +6,20 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            "space"
+            4
         ],
         "linebreak-style": [
             "error",
             "unix"
         ],
         "quotes": [
-            "error",
-            "single"
+            "off",
+            "double"
         ],
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": "off"
     }
 };
