@@ -6,6 +6,8 @@ Liquium is an Open Source polling framework based in Smart Contracts running in 
 
 We've built a template for organizations which want to integrate a public, fair and transparent polling system, so they can modify it for their own context just forking this and its brother repositories.
 
+You can know more about Liquium in our [wiki](https://github.com/AtrauraBlockchain/liquium-apo/wiki/About-Liquium).
+
 ## Ethereum Gateway for the Liquium Mobile App
 
 This repository contains a [Node.js](https://nodejs.org/) server which acts as a gateway for the Liquium Mobile App. Because of hardware limitations, a mobile app can't host an Ethereum client yet, so we've developed this server to let the smartphone build and sign its own transactions and send them to the server to put them in the Ethereum Blockchain.
