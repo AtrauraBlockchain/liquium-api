@@ -14,6 +14,8 @@ var liquiumRT = require('liquium-contracts');
 var Web3 = require('web3');
 var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 
+var waittx=require('./waittx')(web3);
+
 app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
@@ -68,6 +70,13 @@ app.post('/api/transaction', function(req, res, next) {
         res.json({
             txHash: txHash
         });
+    });
+});
+
+app.get('/api/transaction/:txHash', function(req, res, next) {
+    waittx(req.params.txHash, function(err, receipt) {
+        if (err) return next(err);
+        res.json(receipt);
     });
 });
 
