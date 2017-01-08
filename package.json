@@ -1,6 +1,6 @@
 {
   "name": "liquium-nodeserver",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Node server for liquium",
   "main": "nodeserver.js",
   "scripts": {
@@ -17,6 +17,6 @@
     "body-parser": "^1.15.2",
     "ethconnector": "0.0.20",
     "express": "^4.14.0",
-    "liquium-contracts": "0.1.7"
+    "liquium-contracts": "0.1.8"
   }
 }
